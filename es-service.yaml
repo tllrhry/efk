@@ -9,6 +9,7 @@ metadata:
     addonmanager.kubernetes.io/mode: Reconcile
     kubernetes.io/name: "Elasticsearch"
 spec:
+  clusterIP: None
   ports:
     - name: db
       port: 9200
