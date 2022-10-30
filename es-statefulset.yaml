@@ -67,7 +67,7 @@ spec:
     spec:
       serviceAccountName: elasticsearch-logging
       containers:
-        - image: registry.cn-huhehaote.aliyuncs.com/tllrhry/elasticsearch
+        - image: registry.cn-huhehaote.aliyuncs.com/tllrhry/elasticsearch:v7.10.2
           name: elasticsearch-logging
           imagePullPolicy: IfNotPresent 
           resources:
